@@ -13,9 +13,9 @@ leia ("Nota da terceira prova: " + nota3);
 media <- nota1 + nota2 + nota3 / 3
 
 escreva ("Nome: " + nome);
-se (media >= 7);{
-	escreva ("Aprovado");
-}
+	se (media >= 7);{
+		escreva ("Aprovado");
+	}
 senão se (media <=5);{
 	escreva ("Recuperação");
 }
