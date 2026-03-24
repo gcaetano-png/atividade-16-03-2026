@@ -11,8 +11,7 @@ geral <- 0;
 resposta <- "S";
 enquanto resposta for == "S" faça;
 
-
-	repetir
+	repetir;
 		leia ("Valor do carro: " + valor);
 		leia ("Ano do carro: " + ano);
 	
