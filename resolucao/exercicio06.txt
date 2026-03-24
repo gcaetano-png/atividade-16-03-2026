@@ -8,18 +8,18 @@ leia ("Escreva o primeiro valor: " + num1);
 leia ("Escreva o segundo valor: ");
 
 se (num1 == num2);{
-escreva ("Os valores são iguais!" + num1);
-numMaior <- num1;
+	escreva ("Os valores são iguais!" + num1);
+		numMaior <- num1;
 }
 senão;
 	se (num1 > num2);{
-	escreva ("O primeiro número é maior!" +  num1);
-	numMaior <- num1
+		escreva ("O primeiro número é maior!" +  num1);
+			numMaior <- num1
 	}
 senão;
 	se (num1 < num2);{
-	escreva ("O segundo número é maior!" + num2);
-	numMaior <- num2;
+		escreva ("O segundo número é maior!" + num2);
+			numMaior <- num2;
 	}
 se (numMaior <= 99 E numMaior >= 0);{
 	escreva ("Está no intervalo entre 0 a 99");
