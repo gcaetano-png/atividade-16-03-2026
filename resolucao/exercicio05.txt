@@ -1,0 +1,16 @@
+Inicio
+
+Var
+
+valCar, impFab, percDist, imposto, valTotal: Real
+
+leia ("Valor do carro na fabrica: " + valCar);
+
+imposto <- valCar * 0,45;
+impFab <- imposto + valCar
+percDist <- impFab * 0,28;
+valTotal <- impFab + percDist
+
+escreva ("Valor do carro: " + valTotal);
+
+Fim

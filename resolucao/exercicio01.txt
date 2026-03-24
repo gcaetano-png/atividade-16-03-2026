@@ -1,0 +1,19 @@
+Inicio
+
+Var
+
+at: caractere
+dt: real
+cb: real
+consumo: real
+
+leia ("Modelo do automóvel: " + at);
+leia ("Distancia percorrida: " + dt);
+leia ("Quantidade de combustível: " + cb);
+
+consumo <- dt / cb;
+
+escreva ("Modelo: " + at")
+escreva ("O consumo médio do seu automóvel é: " + consumo);
+
+Fim

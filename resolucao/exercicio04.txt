@@ -1,0 +1,13 @@
+Inicio
+
+Var 
+
+valA, rend: Real
+
+leia ("Insira um valor: " + valA);
+
+rend <- valA * (1 + 0,007);
+
+escreva ("O rendimento total é de: " + rend);
+
+Fim

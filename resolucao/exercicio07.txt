@@ -1,0 +1,26 @@
+Inicio
+
+Var
+
+nome: Caractere
+nota1, nota2, nota3, media: Real
+
+leia ("Nome aluno: " + nome);
+leia ("Nota da primeira prova: " + nota1);
+leia ("Nota da segunda prova: " + nota2);
+leia ("Nota da terceira prova: " + nota3);
+
+media <- nota1 + nota2 + nota3 / 3
+
+escreva ("Nome: " + nome);
+se (media >= 7);{
+	escreva ("Aprovado");
+}
+senão se (media <=5);{
+	escreva ("Recuperação");
+}
+senão se (media >=5.1 E media <= 6.9);{
+	escreva ("Média");
+}
+
+Fim

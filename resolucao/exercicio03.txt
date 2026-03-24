@@ -1,0 +1,14 @@
+Inicio
+
+Var
+
+reais, dol, cotDol
+
+leia ("Valor possuído (U$): " + dol);
+leia ("Valor da cotação atual do dólar para real: " + cotDol);
+
+reais <- dol * cotDol
+
+escreva ("O valor convertido em reais é de: R$" + reais);
+
+Fim

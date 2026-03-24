@@ -1,0 +1,14 @@
+Inicio
+
+Var
+
+f: Real
+c: Real
+
+leia ("Digite a temperatura em °C: " + c);
+
+f <- 9 * C + 160;
+
+escreva ("A temperatura de °C para °F: " + f);
+
+Fim

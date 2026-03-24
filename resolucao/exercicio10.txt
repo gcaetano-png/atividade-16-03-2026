@@ -1,0 +1,33 @@
+Inicio
+
+Var
+
+valN, valT,: Inteiro
+valO: Caractere
+
+
+leia ("Digite o valor de N: " + valN);
+leia ("Digite o operador ( +, -, /, *): " + valO);
+leia ("Digite o valor de T(máximo): " + valT);
+
+para i de 1 ate valT faça;{
+	se valO == "+" entao;{
+		escreva (valN " + ", i, " = ", valN + i);
+	
+	senão se valO == "*" entao;{
+		escreva (valN " * ", i, " = ", valN * i);
+	}
+	senão se valO == "/" entao;{
+		escreva (valN " / ", i, " = ", valN / i);
+	}
+	senão se valO == "-" entao;{
+		escreva (valN " - ", i, " = ", valN - i);
+	}
+	senão;
+		escreva ("Operador invalido");
+		pare
+	}
+}
+
+
+Fim

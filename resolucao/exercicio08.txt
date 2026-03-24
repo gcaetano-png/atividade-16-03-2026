@@ -1,0 +1,20 @@
+Inicio
+
+
+Var
+idade: Inteiro
+
+para i de 1 a 75 faça;
+	leia ("Idade: " + idade);
+
+se (idade >= 60);{
+	escreva ("Idoso");
+}
+senão se (idade >= 18);{
+	escreva ("Maior de idade");
+}
+senão;{
+	escreva ("Menor de idade");
+}
+
+Fim
